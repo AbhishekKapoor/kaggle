@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kaggle Mobile Ad Competition</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Kaggle Mobile Ad Competition">
+  <meta name="author" content="Abhishek Kapoor">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Kaggle Mobile Ad Competition</h1>
+    <h2>Presentation for Analysis</h2>
+    <p>Abhishek Kapoor<br/>Mobile Ad Competition</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Back ground</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Hi Friend, we take this competition as an opportunity to learn R and to build an   architecture around R and big data</li>
+<li>We are using Slidify and  R Markdown for reporting</li>
+<li>This competition is hosted on Kaggle - (<a href="http://www.kaggle.com/c/avazu-ctr-prediction">http://www.kaggle.com/c/avazu-ctr-prediction</a>)</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Installation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>R - packages requirement 
+ffbase,ff,ffbase2,lubridate,tidyr</p>
+
+<pre><code class="r">rm(list=ls())
+if(require(Revobase)){
+  setMKLthreads(4)
+}
+</code></pre>
+
+<pre><code>## 
+## Number of threads at maximum: no change has been made.
+</code></pre>
+
+<pre><code class="r">setwd(&quot;C:/Users/Abhishek Kapoor/Documents/GitHub/kaggle/Ad Click predictation/data&quot;)
+#install.packages (&quot;ff&quot;,dep=T)  ###if not installed in ur system
+
+##install.packages (&quot;ffbase&quot;,dep=T)
+#install.packages(&quot;devtools&quot;)
+#devtools::install_github(&quot;edwindj/ffbase2&quot;)
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Back ground'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Installation'>
+         2
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
